@@ -225,3 +225,5 @@ http://beta.gitflowchart.com/chart/github/Symfomany/tuto-git
 
 
 Git kraken Visulisation 
+The legendary Git GUI client for Windows, Mac and Linux
+https://www.gitkraken.com/
