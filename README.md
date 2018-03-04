@@ -28,6 +28,10 @@ https://www.grafikart.fr/tutoriels/divers/git-github-131
 Git Workflow Grakifart
 https://www.grafikart.fr/tutoriels/divers/git-workflow-478
 
+Ouverture sur Github Project
+https://github.com/Symfomany/tuto-git/projects/2
+
+
 ------------------------------------------------------------------------------------------------------
 
 + Initialisation avec git init

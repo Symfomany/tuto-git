@@ -6,7 +6,10 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <ul>Menu modified</ul>
+                <ul>
+                    <li>Le Menu responsive</li>
+                    <li>Menu responsive</li>
+                </ul>
             </div>
         )
     }
