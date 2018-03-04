@@ -133,3 +133,52 @@ Selon les recommandations de Github et Gitlab, il est préférable d’utiliser 
 
 Add Git Lens for Vscode
 http://gitlens.amod.io/
+
+
+Add git in existing project:
+
+```
+    $ git remote add origin git@host:user/project_name.git
+```
+
+Supprimer un fichier suivi par git:
+
+```
+    $ git rm --cached /path/to/file # Pour un fichier
+    $ git rm --cached -r /path/to/folder # Pour un dossier
+```
+
+Git permet de faire des branches, je pense qu’il faut en user et en abuser. Pour la simple raison que des gens vont probablement relire votre code derrière avec le système de Pull Request et même si une fonctionnalité n’est pas terminée, il pourra relire votre code en amont et vous faire des retours plus facilement.
+
+De plus, vous aurez un historique bien plus clair des fonctionnalité qui ont été développées. Cela va permettre de bien séparer les développements même si vous travaillez seul, par exemple si vous avez besoin de rapidement corriger un bug, vous pourrez mettre en “pause” le développement en cours et corriger le bug de manière transparente pour votre avancement en cours.
+
+
+```
+ git branch --merged: Mergée
+ git branch --no-merged: No Mergées
+ ```
+
+Version courte des status
+```
+    git status -u
+```
+
+```
+    git add *.txt  # Tous les fichiers txt du dossier courant
+    git add "*.txt" # Tous les fichiers txt du projet entier
+```
+
+Supprime un fichier du staging
+```
+    git reset folder/file # Enlève le fichier file du staging
+```
+
+Git reset hard est tres dangeureux..
+
+
+Utiliser Git revert plutot que git reset hard:
+Il faut bien faire la différence avec git reset. Git reset peut, entre autre, supprimer complètement un commit et donc modifier l’historique de git.
+
+Le revert est plus souple et permet de garder un historique des modifications, il va tout simplement supprimer les modifications d’un commit mais dans un nouveau commit.
+
+
