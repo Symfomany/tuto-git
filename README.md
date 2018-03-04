@@ -23,4 +23,6 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 + Git add for tricked
 + Git status for changements detected
 + Github sync avec remote
++ Historique avec git log
++ git diff HEAD pour la différences avec le dernier commit (en entete)
 + 
