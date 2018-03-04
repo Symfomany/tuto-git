@@ -17,6 +17,7 @@ https://www.git-tower.com/learn/
 Git CheatSheet
 https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 
+
 ------------------------------------------------------------------------------------------------------
 
 + Initialisation avec git init
@@ -24,4 +25,10 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 + Git status for changements detected
 + Github sync avec remote
 + Historique avec git log
-+ git diff HEAD pour la différences avec le dernier commit (en entete) ou entre 2 branches: git diff master..test
++ git diff avec HEAD pour la différences avec le dernier commit (en entete) ou entre 2 branches: git diff master..test
+
+Commande utilse dans git diff:
+```
+    git diff HEAD -- ./lib :limite le chemin des différence
+    git diff --stat : montre jusrte les différences
+```
