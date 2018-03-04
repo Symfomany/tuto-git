@@ -48,6 +48,16 @@ Commande utilse dans git diff:
     git diff --stat : montre jusrte les différences
 ```
 
+
+Démo de branche:
+
+Modifier du HTML puis
+```
+    git push origin html
+```
+Aller sur Github pour voir la modif et préparer la PR
+
+
 Créer une branche: 
 
 ```
