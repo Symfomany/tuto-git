@@ -31,6 +31,9 @@ https://www.grafikart.fr/tutoriels/divers/git-workflow-478
 Ouverture sur Github Project
 https://github.com/Symfomany/tuto-git/projects/2
 
+Bonnes pratiques
+https://guillaumebriday.fr/comment-jutilise-git-mes-astuces-et-bonnes-pratiques
+
 
 ------------------------------------------------------------------------------------------------------
 
@@ -114,4 +117,17 @@ ou juste un fichier
 ```
     git checkout -- unfichier
 ```
+
+Le plus important, cela va permettre de vous identifier en tant qu’auteur du commit :
+
+```
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
+```
+
+
+Ajouter une clé ssh
+
+Selon les recommandations de Github et Gitlab, il est préférable d’utiliser le port https, et cela peut être utilisé avec ssh : https://help.github.com/articles/which-remote-url-should-i-use/.
+
 
