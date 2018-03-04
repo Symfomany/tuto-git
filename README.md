@@ -27,6 +27,12 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 + Historique avec git log
 + git diff avec HEAD pour la différences avec le dernier commit (en entete) ou entre 2 branches: git diff master..test
 
+
+Pour aller plus loin:
+
++ Github Desktop: opérations de lecture et non d'écriture pour moi
+
+
 Commande utilse dans git diff:
 ```
     git diff HEAD -- ./lib :limite le chemin des différence
