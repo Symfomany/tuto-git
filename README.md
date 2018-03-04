@@ -11,6 +11,8 @@ https://github.com/dictcp/awesome-git
 Git in 15 minutes
 https://try.github.io/levels/1/challenges/2
 
+Free Books Git
+https://www.git-tower.com/learn/
 
 ------------------------------------------------------------------------------------------------------
 
