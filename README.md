@@ -88,3 +88,12 @@ https://git-scm.com/book/fr/v2/Utilitaires-Git-Reset-d%C3%A9mystifi%C3%A9
 HEAD --- Index --- Working Files
 
 Modification: git add dessus pour le monter dans notre index.
+
+
+Revenir en arriere sur un commit:
+
+```
+    git reset 9183c5024d3853f14efadf907f2d3aa46dcb3694 --hard
+    git push --force origin master : (ne pas oublier le force car on force sur une branche plus avancée a revenir en arriere)
+```
+
