@@ -82,6 +82,14 @@ Pusher sur la branche css et merge sur master
 il faut que toutes les autres branches AVANT TOUS CHANGEMENT puisse se mettre à jour par rapport à la master.*
 
 
+Article interessante pour demystifié git add, commit :
+https://git-scm.com/book/fr/v2/Utilitaires-Git-Reset-d%C3%A9mystifi%C3%A9
+
+HEAD --- Index --- Working Files
+
+Modification: git add dessus pour le monter dans notre index.
+
+
 
 
 
