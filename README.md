@@ -71,3 +71,18 @@ Voir les modifications entre 2 branches:
 ```
     git diff master..css
 ```
+
+Pusher sur la branche css et merge sur master
+
+```
+    git merge css
+```
+
+Attention: La master étant la brabche la plus haute et la plus en avance, 
+il faut que toutes les autres branches AVANT TOUS CHANGEMENT puisse se mettre à jour par rapport à la master.
+
+
+
+
+
+
