@@ -10,6 +10,11 @@ a{
 p{
     background: yellow;
 }
+<<<<<<< HEAD
 h1{
     color: darkblue;
+=======
+h2{
+    color: pink;
+>>>>>>> a513660b4eca36e766723eb706449b1c14d8a51c
 }
