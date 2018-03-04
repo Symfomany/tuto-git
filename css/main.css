@@ -1,4 +1,9 @@
 body{
     color: blue;
+<<<<<<< HEAD
     font-family: 'Arial', Courier, monospace;
+=======
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+>>>>>>> css
 }
