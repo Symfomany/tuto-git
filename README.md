@@ -88,9 +88,3 @@ https://git-scm.com/book/fr/v2/Utilitaires-Git-Reset-d%C3%A9mystifi%C3%A9
 HEAD --- Index --- Working Files
 
 Modification: git add dessus pour le monter dans notre index.
-
-
-
-
-
-
