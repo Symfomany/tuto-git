@@ -131,3 +131,5 @@ Ajouter une clé ssh
 Selon les recommandations de Github et Gitlab, il est préférable d’utiliser le port https, et cela peut être utilisé avec ssh : https://help.github.com/articles/which-remote-url-should-i-use/.
 
 
+Add Git Lens for Vscode
+http://gitlens.amod.io/
