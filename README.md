@@ -24,5 +24,4 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 + Git status for changements detected
 + Github sync avec remote
 + Historique avec git log
-+ git diff HEAD pour la différences avec le dernier commit (en entete) sur le repository vs local
-+ 
++ git diff HEAD pour la différences avec le dernier commit (en entete) ou entre 2 branches: git diff master..test
