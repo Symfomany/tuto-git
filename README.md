@@ -181,4 +181,47 @@ Il faut bien faire la différence avec git reset. Git reset peut, entre autre, s
 
 Le revert est plus souple et permet de garder un historique des modifications, il va tout simplement supprimer les modifications d’un commit mais dans un nouveau commit.
 
+Si un fichier:
+```
+ git checkout file/to/path
+ ```
+Sinon:
+```
+ $ git checkout SHA-1 # Déplacer le HEAD sur le commit qui correspond au SHA-1
+$ git checkout HEAD^ # Revient au commit précédent
+$ git checkout HEAD~4 # Revient 4 commmits en arrière
+```
 
+
+Voir les logs sus form de graph
+```
+ git log --graph --oneline --decorate
+```
+
+Les logs sur une date:
+```
+    $ git log --after="2014-7-1"
+    $ git log --before="2014-7-1"
+    $ git log --after="2014-7-1" --before="2015-7-1"
+```
+
+Ou
+
+```
+    $ git log --after="yesterday"
+    $ git log --before="1 week ago"
+```
+
+
+Par message:
+
+```
+    git log --grep="controller"
+```
+
+Visualisation
+
+http://beta.gitflowchart.com/chart/github/Symfomany/tuto-git
+
+
+Git kraken Visulisation 
