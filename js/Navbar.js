@@ -7,6 +7,7 @@ export default class Navbar extends Component {
         return (
             <div>
                 <ul>
+                    <li>Le Menu responsive</li>
                     <li>Menu responsive</li>
                 </ul>
             </div>
