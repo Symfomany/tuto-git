@@ -21,6 +21,13 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 Bonne référence en français:
 http://alx.github.io/gitbook/3_comparer_les_commits_-_git_diff.html
 
+
+Tuto Github
+https://www.grafikart.fr/tutoriels/divers/git-github-131
+
+Git Workflow Grakifart
+https://www.grafikart.fr/tutoriels/divers/git-workflow-478
+
 ------------------------------------------------------------------------------------------------------
 
 + Initialisation avec git init
