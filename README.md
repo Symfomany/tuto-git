@@ -14,6 +14,9 @@ https://try.github.io/levels/1/challenges/2
 Free Books Git
 https://www.git-tower.com/learn/
 
+Git CheatSheet
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
 ------------------------------------------------------------------------------------------------------
 
 + Initialisation avec git init
