@@ -52,4 +52,6 @@ Créer une branche:
 
 ```
     git branch html
+    git checkout html
+    tricks: git checkout -b html: créer et swicth
 ```
