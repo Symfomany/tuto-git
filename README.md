@@ -57,11 +57,17 @@ Modifier du HTML puis
 ```
 Aller sur Github pour voir la modif et préparer la PR
 
-
+---------------------
 Créer une branche: 
 
 ```
     git branch html
     git checkout html
     tricks: git checkout -b html: créer et swicth
+```
+
+Voir les modifications entre 2 branches:
+
+```
+    git diff master..css
 ```
