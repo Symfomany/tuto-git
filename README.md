@@ -1,3 +1,6 @@
-# Je suis un titre
+# Git Utilisation
 
-## Je suis le sous-titre
+## Démo avec VSCode
+
++ Initialisation avec git init
++ Git add for tricked
